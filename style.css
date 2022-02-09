@@ -1,0 +1,79 @@
+
+body {
+  background-color: #f5ebe0;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+  font-weight: bold;
+}
+.card {
+  color: rgb(119, 114, 114);
+  background-size: cover;
+  text-align: center;
+}
+.card h2 {
+  color: #313a49;
+  font-weight: 700;
+}
+
+#banner-picture {
+  border-radius: 50%;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  color: #2e6c79;
+  background-color: #8eacb8;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #264653;
+  text-decoration: underline;
+}
+
+.social-media-links {
+  list-style: none;
+  padding: 0px;
+  font-size: 40px;
+  color: rgb(220, 220, 220) ;
+  margin: 8px 24px;
+}
+
+.social-media-links li {
+  display: inline-block;
+  font-size: 25px;
+  justify-content: space-around;
+  padding: 0px 10px;
+}
+
+.card {
+  padding: 24px;
+  margin: 24px auto;
+  background-color: white ;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+  text-align: center;
+}
+.container {
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
